@@ -1,38 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MT6MJJ7KY4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-MT6MJJ7KY4');
-</script>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Jxson's Bio</title>
-  <meta property="og:title" content="jxs4n" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://sillydev.co.uk " />
-  <meta property="og:image" content="https://i.ibb.co/q3m0VFwQ/f1b949ff0694ee4d2c7c219c5237d6be.jpg" />
-  <meta property="og:description" content="Welcome to Jxson's Bio Page" />
-  <meta name="theme-color" content="#ff00dd">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="icon" type="image/x-icon" href="https://i.ibb.co/q3m0VFwQ/f1b949ff0694ee4d2c7c219c5237d6be.jpg">
-  <link rel="stylesheet" href="assets/css/style.css">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>jxson.lol</title>
+  <link rel="icon" href="https://img.jxson.lol/u/RKXISO2DBS.jpg" type="image/x-icon" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  />
 </head>
+
 <body>
-<div id="button" role="button">
-  <span class="glow"></span>
-  <div>
-    <span>Jxson's Bio</span> CLICK HERE
-  </div>
-</div>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="https://img.jxson.lol/u/RKXISO2DBS.jpg" alt="Jxs4n" width="80" />
+        </figure>
+        <div class="info-content">
+          <h1 class="name">Jxson</h1>
+          <p class="title">Helper @ SillyDev</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="calendar-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2008-06-22">June 22, 2008</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="location-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Tirana, Albania</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="#" class="social-link"><ion-icon name="logo-discord"></ion-icon></a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a href="#about" class="navbar-link active" data-nav-link>About</a></li>
+          <li class="navbar-item"><a href="#resume" class="navbar-link" data-nav-link>Resume</a></li>
+        </ul>
+      </nav>
+
+      <article id="about" class="about active" data-page="about">
+        <header><h2 class="h2 article-title">About me</h2></header>
+        <section class="about-text">
+          <p>Hey! It's Jxson, and I am a Helper at SillyDev.</p>
+          <p>
+            With proficiency in various programming languages, I have designed and
+            built numerous websites that are visually appealing, highly functional,
+            and user-friendly.
+          </p>
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper"><h5 class="h5">Node.js</h5><data value="68">68%</data></div>
+              <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 68%;"></div></div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper"><h5 class="h5">Python</h5><data value="71">71%</data></div>
+              <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 71%;"></div></div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper"><h5 class="h5">HTML</h5><data value="40">40%</data></div>
+              <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 40%;"></div></div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper"><h5 class="h5">CSS</h5><data value="27">27%</data></div>
+              <div class="skill-progress-bg"><div class="skill-progress-fill" style="width: 27%;"></div></div>
+            </li>
+          </ul>
+        </section>
+
+        <section class="language">
+          <h3 class="h3 languages-title">My languages</h3>
+          <ul class="languages-list content-card">
+            <li class="languages-item">
+              <div class="title-wrapper"><h5 class="h5">Albanian</h5><data value="100">100%</data></div>
+              <div class="language-progress-bg"><div class="language-progress-fill" style="width: 100%;"></div></div>
+            </li>
+            <li class="languages-item">
+              <div class="title-wrapper"><h5 class="h5">English</h5><data value="95">95%</data></div>
+              <div class="language-progress-bg"><div class="language-progress-fill" style="width: 95%;"></div></div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <article id="resume" class="resume" data-page="resume">
+        <header><h2 class="h2 article-title">Resume</h2></header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4">Intermediate Developer</h4><span>2024 — Present</span>
+              <p>Building more complex projects while continuing to learn and refine skills.</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4">Developing Developer</h4><span>2023 — 2024</span>
+              <p>Gained more knowledge in HTML, CSS, Node.js, and Python, working on practical projects.</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4">Beginner Developer</h4><span>2022 — 2023</span>
+              <p>Started with Python and Node.js, laying the foundation for future learning.</p>
+            </li>
+          </ol>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
-<script src="portfolio/script.js"></script>
 </html>
